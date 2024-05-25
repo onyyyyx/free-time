@@ -1,5 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #333;
 }
 
 header {
@@ -7,7 +8,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #777;
     padding-left: 20px;
     color: white;
     font-family: "Major Mono Display", monospace;
@@ -30,6 +31,11 @@ main {
 
 .container a {
     text-decoration: none;
+    color: rgb(47, 45, 151);
+}
+
+.container a:checked {
+  color: rgb(47, 45, 151);
 }
 
 .card {
@@ -50,6 +56,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    margin: 1%;
   }
   
   .card__body {
